@@ -1,0 +1,153 @@
+:root{
+
+
+
+}
+
+body{
+    padding: 0px;
+    border: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(136.31deg,    #0c0f07 14.16%,    #1f102b 53.39%,    #23193e 82.63%  ); 
+    min-height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 55px ;
+    margin-bottom: 110px;
+
+}
+.logo{
+   
+    width: 160px;
+    height: 104px;
+    margin-top: 51px;
+    margin-left: 63px;
+
+}
+
+header nav{
+    
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.navlink{
+
+    font-family: 'Baloo Bhaina 2';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color:#E0DAED;
+    text-decoration: none;
+    
+}
+.navlink:hover{
+
+    color:#676464;  
+}
+section{
+    display: flex;
+    flex-direction: column;
+}
+.orientacao{
+        margin-left: 114px;
+        width:40%;    
+        font-family: 'Baloo Bhaina 2';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 54px;
+        line-height: 50px;
+        text-align: center;
+        color: rgba(159, 127, 219, 0.8);
+
+}
+
+.conteudo{
+
+    display:flex;
+    justify-content:space-between;
+
+}
+
+.form{
+
+
+}
+
+input{
+
+    width: 408.2px;
+    height: 61.23px;
+    background: #9F7FDB;
+    border-radius: 10px;
+    margin-left: 184px;
+    margin-bottom: 44px;
+}
+input::placeholder{
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    /* or 143% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+
+.btnLua{
+    width: 249px;
+    height: 84px;
+    margin-left: 143px;
+    padding: 18px 28px;
+    gap: 10px;
+    background: #7834F3;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: 'Baloo Bhaina 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+
+}
+.btnInfo{
+    width: 249px;
+    height: 84px;
+    margin-left: 84px;
+    padding: 18px 28px;
+    gap: 10px;
+    background: #9F7FDB;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: 'Baloo Bhaina 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+#cadastro{
+    visibility: hidden;
+}
+#jaba{
+
+    
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+
+
+}
+
